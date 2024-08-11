@@ -287,7 +287,7 @@ export const Paint: React.FC<PaintProps> = React.memo(function Paint({}) {
 
     <div className="grid grid-cols-[280px_1fr_280px] h-screen w-full">
  
-  <Toolbar  setDrawAction={setDrawAction} setColor={setColor}  onImportImageClick={onImportImageClick} onImportImageSelect={onImportImageSelect} fileRef={fileRef} onExportClick={onExportClick}/>
+  <Toolbar  setDrawAction={setDrawAction} setColor={setColor}  onImportImageClick={onImportImageClick} onImportImageSelect={onImportImageSelect} fileRef={fileRef} onExportClick={onExportClick} onClear={onClear}/>
  <div className="flex items-center justify-center bg-muted/20 ">
   {/* <img src="/placeholder.svg" width={800} height={600} alt="Canvas" className="max-w-full max-h-full object-contain" style={{aspectRatio: '800/600', objectFit: 'cover'}} /> */}
   <div
