@@ -247,7 +247,7 @@ export const Paint: React.FC<PaintProps> = React.memo(function Paint({}) {
         )
       );
 
-      setArrows((prevArrows) =>
+      setArrows((prevArrows):any =>
         prevArrows.map((arrow) => {
           if (arrow.id === id) {
             const dx = x - arrow.points[0];

@@ -122,8 +122,8 @@
 // }
 
 // export default Options
-function Options({ rectangles, arrows, circles }) {
-  const renderShapeRow = (shape, type) => {
+function Options({ rectangles, arrows, circles }:any) {
+  const renderShapeRow = (shape:any, type:any) => {
     let coordinates, size;
 
     switch (type) {
@@ -252,11 +252,11 @@ function Options({ rectangles, arrows, circles }) {
                   </tr>
                 </thead>
                 <tbody className="[&_tr:last-child]:border-0">
-                  {rectangles.map((rectangle) =>
+                  {rectangles.map((rectangle:any) =>
                     renderShapeRow(rectangle, "Rectangle")
                   )}
-                  {circles.map((circle) => renderShapeRow(circle, "Circle"))}
-                  {arrows.map((arrow) => renderShapeRow(arrow, "Arrow"))}
+                  {circles.map((circle:any) => renderShapeRow(circle, "Circle"))}
+                  {arrows.map((arrow:any) => renderShapeRow(arrow, "Arrow"))}
                 </tbody>
               </table>
             </div>
