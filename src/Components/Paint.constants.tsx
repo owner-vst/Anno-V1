@@ -1,11 +1,4 @@
-import {
-  ArrowsMove,
-  ArrowUpLeft,
-  ArrowUpLeftSquareFill,
-  Circle,
-  Pencil,
-  Square,
-} from "react-bootstrap-icons";
+
 
 export enum DrawAction {
   Select = "select",
