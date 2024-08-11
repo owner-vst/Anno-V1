@@ -14,20 +14,7 @@ import { v4 as uuidv4 } from "uuid";
 import { Arrow, Circle, Rectangle, Scribble } from "./Paint.types";
 import { DrawAction, PAINT_OPTIONS } from "./Paint.constants";
 import { SketchPicker } from "react-color";
-import {
-  Box,
-  Button,
-  ButtonGroup,
-  Flex,
-  IconButton,
-  Popover,
-  PopoverArrow,
-  PopoverCloseButton,
-  PopoverContent,
-  PopoverTrigger,
-} from "@chakra-ui/react";
 
-import { Download, Upload, XLg } from "react-bootstrap-icons";
 import Toolbar from "./Toolbar";
 import Options from "./Options";
 
